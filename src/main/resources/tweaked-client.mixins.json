@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "io.github.tau34.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "GameRendererMixin",
+    "LightmapMixin",
+    "MinecraftClientMixin",
+    "SubmitNodeStorageMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
